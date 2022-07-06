@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -90,7 +91,7 @@ h2 {
 }
 
 .div04 a {
-    margin-left: 320px;
+    margin-left: 310px;
 }
 
 /* donate today ends here */
@@ -165,7 +166,7 @@ h2 {
 #sub-main {
     width: 809px;
     height: 200px;
-    background-color: #FFF4D6;
+    background-color: #e5dbc0;
     margin: 50px auto;
 }
 
@@ -175,10 +176,12 @@ h2 {
     font-size: 25px;
     border: none;
     background-color: #D9D9D9;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     text-align: left;
     outline: none;
-    padding-left: 10px;
+    padding-left: 15px;
+    box-shadow: 5px 5px 30px gray;
+
 }
 
 #sub-main02 {
@@ -189,11 +192,13 @@ h2 {
     width: 150px;
     height: 50px;
     font-size: 25px;
-    background-color: #FF5959;
+    background-image: linear-gradient(to top right, #02aab0, #00cdac);
     border: none;
     color: #fff;
     font-weight: 500;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 5px 5px 30px #94c2c4;
+
 }
 
 /* subscribe section ends here */
@@ -214,6 +219,10 @@ footer h3 {
     padding-top: 50px;
     font-family: 'Lobster', cursive;
     font-size: 35px;
+}
+
+footer p {
+    font-weight: 300px;
 }
 
 /* footer section ends here */
