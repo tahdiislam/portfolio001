@@ -70,7 +70,13 @@ h2 {
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 5px 5px 30px #abcfcf;
+}
+
+#highlight {
+    background-color: #cdebeb;
+    color: #02aab0;
+    border: 3px solid #71d8d8;
+    box-shadow: 5px 5px 30px #a9dbdb;
 }
 
 .div04 {
