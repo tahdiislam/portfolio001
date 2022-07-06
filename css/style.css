@@ -92,3 +92,39 @@ h2 {
 }
 
 /* donate today ends here */
+
+/* our donate starts here */
+
+#our-donate {
+    width: 691px;
+    height: 130px;
+    margin: 130px auto;
+    text-align: center;
+}
+
+#flexible-container {
+    display: flex;
+    justify-content: center;
+}
+
+.one-of-third {
+    width: 360px;
+    height: 352px;
+    text-align: left;
+    padding: 54px 22px;
+    margin: 0 12px;
+}
+
+#bg-color01 {
+    background-color: #d8ebee;
+}
+
+#bg-color02 {
+    background-color: #f1e0e0;
+}
+
+#bg-color03 {
+    background-color: #FFF4D6;
+}
+
+/* our donate ends here */
