@@ -8,6 +8,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 /* first section starts here */
 
 #top-section {
@@ -15,8 +19,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: 1440px;
     height: 669px;
-    margin-top: 0px;
-
+    margin-bottom: 130px;
 }
 
 #div-01 {
@@ -44,3 +47,47 @@ h1 {
 }
 
 /* first section ends here */
+
+/* donate today starts here */
+
+.div02 {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.div03 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.div03 h3 {
+    background-color: #d8f1f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.div04 {
+    width: 765px;
+    margin: 0 auto;
+    display: block;
+}
+
+.div04 input {
+    border: none;
+    border-bottom: 1px solid #02aab0;
+    width: 765px;
+    outline: 0;
+    padding: ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.div04 a {
+    margin-left: 320px;
+}
+
+/* donate today ends here */
